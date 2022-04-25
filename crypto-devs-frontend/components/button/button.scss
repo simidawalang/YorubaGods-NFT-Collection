@@ -1,0 +1,13 @@
+button {
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  &.green {
+    background: $green;
+    color: $white;
+    border: 1px solid $green;
+  }
+  &.lg {
+      padding: 20px 40px;
+  }
+}

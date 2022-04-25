@@ -6,6 +6,7 @@ interface ButtonProps {
   content?: any;
   className?: string;
   variant?: string;
+  size?: string;
 }
 const Button = ({
   type,
@@ -13,9 +14,10 @@ const Button = ({
   variant,
   onClick,
   content,
+  size
 }: ButtonProps) => {
   return (
-    <button type={type} className={`${className} ${variant}`} onClick={onClick}>
+    <button type={type} className={`${className} ${variant} ${size}`} onClick={onClick}>
       {content}
     </button>
   );
