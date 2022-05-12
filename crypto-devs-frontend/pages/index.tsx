@@ -92,7 +92,6 @@ const Home: NextPage = () => {
         providerOptions: {},
         disableInjectedProvider: false,
       });
-      connectWallet();
     }
   }, [isWalletConnected]);
 
