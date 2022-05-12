@@ -5,18 +5,18 @@ export const ABI = [
       {
         internalType: "uint8",
         name: "_maxWhitelistedAddresses",
-        type: "uint8",
-      },
+        type: "uint8"
+      }
     ],
     stateMutability: "nonpayable",
-    type: "constructor",
+    type: "constructor"
   },
   {
     inputs: [],
     name: "addAddressToWhitelist",
     outputs: [],
     stateMutability: "nonpayable",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [],
@@ -25,11 +25,11 @@ export const ABI = [
       {
         internalType: "uint8",
         name: "",
-        type: "uint8",
-      },
+        type: "uint8"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [],
@@ -38,29 +38,29 @@ export const ABI = [
       {
         internalType: "uint8",
         name: "",
-        type: "uint8",
-      },
+        "type": "uint8"
+      }
     ],
     stateMutability: "view",
-    type: "function",
+    type: "function"
   },
   {
     inputs: [
       {
         internalType: "address",
         name: "",
-        type: "address",
-      },
+        "type": "address"
+      }
     ],
     name: "whitelistedAddresses",
     outputs: [
       {
         internalType: "bool",
         name: "",
-        type: "bool",
-      },
+        "type": "bool"
+      }
     ],
     stateMutability: "view",
-    type: "function",
-  },
+    type: "function"
+  }
 ];

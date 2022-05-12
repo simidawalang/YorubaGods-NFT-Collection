@@ -1,4 +1,7 @@
 import { ethers } from "hardhat";
+import dotenv from "dotenv";
+
+dotenv.config({ path: ".env"});
 
 const deploy = async () => {
   const whitelistContract = await ethers.getContractFactory("Whitelist");
