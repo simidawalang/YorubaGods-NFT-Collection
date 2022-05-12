@@ -98,19 +98,19 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>CryptoDevs NFT Collection</title>
+        <title>YorubaGods NFT Collection</title>
         <meta
           name="description"
-          content="Whitelist for CryptoDevs NFT Collection"
+          content="Whitelist for YorubaGods NFT Collection"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
         <header className="homepage-header">
           <div className="homepage-header__info">
-            <h1 className="homepage-header__info-title">CryptoDevs</h1>
+            <h1 className="homepage-header__info-title">Yoruba Gods</h1>
             <p className="homepage-header__info-text">
-              An NFT collection for developers in crypto. <br /> {noOfWhitelisted} have already
+              Rich and diverse culture. <br /> {noOfWhitelisted} have already
               joined.
             </p>
             {isWalletConnected ? (
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
             )}
           </div>
           <div className="homepage-header__img">
-            <Image src={headerImg} alt="CryptoDevs header image placeholder" />
+            <Image src={headerImg} alt="Yoruba gods image placeholder" />
           </div>
         </header>
       </main>
